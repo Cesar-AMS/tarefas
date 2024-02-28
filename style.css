@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3; /* Cor de fundo para o corpo */
+    color: #333; /* Cor do texto */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Cor de fundo para o conteúdo */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h1 {
+    color: #444; /* Cor do título principal */
+}
+
+p {
+    line-height: 1.6;
+}
+
+a {
+    color: #007bff; /* Cor do link */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Sublinhar o link quando hover */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Cor de fundo para o botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Mudar a cor de fundo quando hover */
+}
